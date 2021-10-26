@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="Css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- //----------------------- main video page ------------------------- -->
+  <div class="main" id="Home">
+    <div class="sub-main">
+      <section class="showcase">
+        <header>
+          <a href="index.html#Home" class="logo">Shoes</a>
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#xat">Category</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="login page.html">Login</a></li>
+          </ul>
+        </header>
+        <script>
+          window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+          })
+        </script>
+        <video src="final.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+          <h2>Clarks</h2>
+          <h3>The Way of style</h3>
+          <p>Explore a range of sizes and styles – there’s something for everyone.</p>
+          <a href="#">Explore</a>
+        </div>
+      </section>
+    </div><br><br>
+    <div class="second">
+      <section class="quote" style="text-align-last: center; padding-top: 585px;">
+        <h3 class="sub-headline">"When the feet are comfortable, so is the mind, body, and soul."</h3><br>
+        <h4 class="sub-sayer">-Donald J Pliner</h4>
+      </section>
+    </div>
+  </div>
+
+
+  <!-- --------------------- category items------------------------------- -->
+  <div class="image-gallery" id="xat">
+    <div class="image-box">
+      <img src="img-1.jpeg" alt="img-1">
+      <div class="overlay-cat">
+        <div class="details">
+          <h3 class="title">Nike</h3>
+          <span class="category">
+            <a href="NikeStore.html">More</a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="image-box">
+      <img src="img-2.jpg" alt="img-1">
+      <div class="overlay-cat">
+        <div class="details">
+          <h3 class="title">Adidas</h3>
+          <span class="category">
+            <a href="#">More</a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="image-box">
+      <img src="img-3.jpg" alt="img-1">
+      <div class="overlay-cat">
+        <div class="details">
+          <h3 class="title">Vans</h3>
+          <span class="category">
+            <a href="#">More</a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="image-box">
+      <img src="img-4.jpeg" alt="img-1">
+      <div class="overlay-cat">
+        <div class="details">
+          <h3 class="title">Clarks</h3>
+          <span class="category">
+            <a href="#">More</a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="image-box">
+      <img src="img-5.jpg" alt="img-1">
+      <div class="overlay-cat">
+        <div class="details">
+          <h3 class="title">Caliber</h3>
+          <span class="category">
+            <a href="#">More</a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="image-box">
+      <img src="img-6.jpg" alt="img-1">
+      <div class="overlay-cat">
+        <div class="details">
+          <h3 class="title">Gold Star</h3>
+          <span class="category">
+            <a href="#">More</a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="image-box">
+      <img src="img-7.jpg" alt="img-1">
+      <div class="overlay-cat">
+        <div class="details">
+          <h3 class="title">Erik</h3>
+          <span class="category">
+            <a href="#">More</a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="image-box">
+      <img src="img-8.jpg" alt="img-1">
+      <div class="overlay-cat">
+        <div class="details">
+          <h3 class="title">Converse</h3>
+          <span class="category">
+            <a href="#">More</a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="image-box">
+      <img src="img-9.jpg" alt="img-1">
+      <div class="overlay-cat">
+        <div class="details">
+          <h3 class="title">Puma</a></h3>
+          <span class="category">
+            <a href="#">More</a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="image-box">
+      <img src="img-10.jpg" alt="img-1">
+      <div class="overlay-cat">
+        <div class="details">
+          <h3 class="title">Bostonian</h3>
+          <span class="category">
+            <a href="#">More</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- ------------- about me page -------------------- -->
+  <div class="about-section" id="Contact">
+    <h1>About Us Page</h1>
+    <p>Some text about who we are and what we do.</p>
+    <p>Resize the browser window to see that this page is responsive by the way.</p>
+  </div>
+
+
+  <!-- ---------nav java script ------------- -->
+
+</body>
+
+</html>
