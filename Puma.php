@@ -316,7 +316,7 @@
   <div class="sub-main">
     <section class="showcase">
       <header>
-        <a href="NikeStore.html" class="logo"> Nike Shoes</a>
+        <a href="NikeStore.html" class="logo"> PUMA Shoes</a>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="index.html#xat">Category</a></li>
@@ -338,7 +338,7 @@
   <?php
   include("dbconn.php");
 
-  $query = "SELECT * from nike where Category = 'Nike Shoes'";
+  $query = "SELECT * from nike where Category = 'Puma Shoes'";
   $query_run = mysqli_query($con, $query);
   $check_fac = mysqli_num_rows($query_run) > 0;
 

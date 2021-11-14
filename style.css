@@ -86,7 +86,7 @@ header ul li a:hover{
 }
 
 .sticky .logo,
-.sticky ul li a{
+.sticky, .cart ul li a{
   color: #000;
 }
 
